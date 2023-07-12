@@ -1,5 +1,5 @@
-# UnityPlugin-ExternalGameView-Issues
-[ExternalGameView]() is a workflow extension for the Unity editor which allows powerful control for rendering content to external monitors.
+# External Game View
+[External Game View]() is a workflow extension for the Unity editor which allows powerful control for rendering content to external monitors.
 
 Get the plugin from the [Unity Asset Store](https://assetstore.unity.com/packages/slug/215946?aid=1101lcNgx)
 
