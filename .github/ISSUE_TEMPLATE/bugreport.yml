@@ -1,0 +1,49 @@
+name: Bug Report
+description: 
+title: ""
+labels: ["bug", "triage"]
+assignees:
+  - Chris-RH
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        Please do not link to or attach project files here, instead send them to unitysupport@renderheads.com linking this issue.
+  - type: input
+    id: unity-version
+    attributes:
+      label: Unity Version
+      description: The version of the Unity editor you are using.
+      placeholder: "example: 2021.3.27f1"
+    validations:
+      required: true
+  - type: dropdown
+    id: externalgameview-version
+    attributes:
+      label: External Game View Version
+      description: The version of the External Game View you are using.
+      options:
+        - 1.1.2
+        - 1.1.1
+        - 1.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: The platform you are using.
+      options:
+        - Windows
+        - macOS
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: The issue
+      description: Please describe the issue, how to reproduce this issue and what you expected to happen.
+      placeholder: 
+    validations:
+      required: true
