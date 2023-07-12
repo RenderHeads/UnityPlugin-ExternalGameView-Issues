@@ -1,6 +1,6 @@
 name: Bug Report
 description: 
-title: ""
+title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
   - Chris-RH
