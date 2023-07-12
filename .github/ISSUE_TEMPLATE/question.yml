@@ -1,0 +1,19 @@
+name: Question
+description: "Ask a question"
+title: "[Question]: "
+labels: ["question", "triage"]
+assignees:
+  - Chris-RH
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filling out this question form!
+  - type: textarea
+    id: request
+    attributes:
+      label: Your question
+      description: Ask your question here
+      placeholder: How do I...
+    validations:
+      required: true
