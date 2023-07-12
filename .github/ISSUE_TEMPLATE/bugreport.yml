@@ -18,15 +18,12 @@ body:
       placeholder: "example: 2021.3.27f1"
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: externalgameview-version
     attributes:
       label: External Game View Version
       description: The version of the External Game View you are using.
-      options:
-        - 1.1.2
-        - 1.1.1
-        - 1.1.0
+      placeholder: "example: 1.1.0"
     validations:
       required: true
   - type: dropdown
